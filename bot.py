@@ -20,7 +20,7 @@
 
 import os
 import tweepy
-from secrets import *
+from twitterSecrets import *
 from time import gmtime, strftime
 
 
@@ -29,13 +29,6 @@ bot_username = ''
 logfile_name = bot_username + ".log"
 
 # ==============================================================
-
-
-def create_tweet():
-    """Create the text of the tweet you want to send."""
-    # Replace this with your code!
-    text = ""
-    return text
 
 
 def tweet(text):
@@ -63,5 +56,4 @@ def log(message):
 
 
 if __name__ == "__main__":
-    tweet_text = create_tweet()
-    tweet(tweet_text)
+    tweet('Test tweet from api')
