@@ -1,3 +1,5 @@
-# twitterbot_framework
+# LogOffBot
 
-A basic framework for creating Twitter bots using Python 3 and [tweepy](http://www.tweepy.org). This goes along with my [tutorial](http://blog.mollywhite.net/twitter-bots-pt2/) on creating Twitter bots.
+Twitter Bot that tells you to get tf off twitter and do something that isn't wasting your life on twitter.
+
+https://twitter.com/LogoffB
