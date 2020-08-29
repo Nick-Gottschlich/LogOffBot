@@ -21,3 +21,4 @@ def tweet(text):
     api = tweepy.API(auth)
 
     api.update_status(text)
+    
